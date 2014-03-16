@@ -1,0 +1,7 @@
+extends layout
+
+block content
+	h1 #{question.text}
+	ul
+		each val in question.steps
+			li #{val}
